@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To-do List</title>
+</head>
+<body>
+     <main>
+       
+   
+      <div class="container">
+          <div class="wrapper">
+        <h1>To-Do List</h1>
+        <div class="Btn">
+            <input class="input" type="text"  placeholder="Digite suas tarefas"/>
+            <button class="BtnIserir" onclick="add()">Inserir</button>
+        </div>
+        <div class="tarefas">
+            <ul class="listaTarefas">
+                <li>
+                    <input type="checkbox">
+                    <label>
+                      arrumar a casa
+                    </label>
+                    
+                
+                   </li>
+                   <li>
+                    <input type="checkbox">
+                    <label >
+                       Estudar
+                    </label>
+                  
+                
+                   </li>
+                   <li>
+                    <input type="checkbox">
+                    <label >
+                      Arrumar um emprego
+                    </label>
+                  
+                
+                   </li>    
+              
+
+
+            </ul>
+            <div class="limpar_lista">
+            <button class="Limpar" onclick="limpar()">Limpar lista</button>
+            </div>
+        </div>
+        </div>
+    </div> 
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Outfit:wght@400;700&family=Prompt:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+/*BODY*/
+body{
+    background-color: #AFEEEE;
+    margin: 4rem;
+    padding: 0;
+    font-family: Prompt;
+}
+.container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+.Btn {
+    padding-bottom: 20px;
+}
+
+.Btn input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+
+
+}
+.Btn button {
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.tarefas .listaTarefas {
+    list-style: none;
+    margin: auto;
+    padding-right: 50px;
+    
+   
+}
+.tarefas .listaTarefas li {
+    border-bottom: 1px solid;
+    
+}
+ li:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tarefas .listaTarefas li:last-child {
+    border-bottom: none
+}
+input:checked + label{
+    text-decoration: line-through;
+    color: gray;
+    font-style: italic;
+}
+.limpar_lista {
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+.Limpar{
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    justify-items: center;
+    
+}
+
+.btn_Exluir_tarefa {
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    
+}
